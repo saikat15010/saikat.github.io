@@ -1,92 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saikat's Profile</title>
+    <title>Your Name - Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        h1 {
+            color: #007acc;
+            text-align: center;
+        }
+        h2 {
             color: #333;
         }
-        header {
-            background-color: #005a9c;
-            color: white;
-            text-align: center;
-            padding: 1.5em 0;
-        }
-        section {
-            margin: 20px auto;
-            max-width: 800px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #005a9c;
-        }
-        img {
-            display: block;
-            margin: 10px auto;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
         a {
-            color: #0073e6;
+            color: #007acc;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
+        .container {
+            text-align: center;
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            border-radius: 50%;
+        }
         ul {
             padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Saikat</h1>
-        <p>PhD Student | Researcher | Developer</p>
-    </header>
-    <section>
-        <img src="assets/photo.jpg" alt="Your Photo">
-        <p>
-            Hi, I am <strong>Saikat</strong>. I am currently pursuing my PhD in Computer Science at [Your University].
-            My research interests focus on Machine Learning, Federated Learning, and Trustworthy AI. If our interests align,
-            feel free to contact me.
-        </p>
-    </section>
-    <section>
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Trustworthy AI</li>
-            <li>Federated Learning</li>
-            <li>Privacy-Preserving Algorithms</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <h3>Intern, XYZ Organization</h3>
-        <p>Worked on data security for federated learning systems.</p>
-        <h3>Research Assistant, [University Name]</h3>
-        <p>Developed privacy-preserving algorithms for machine learning models.</p>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <p><strong>[University Name]</strong> - PhD in Computer Science (2021-Present)</p>
-        <p><strong>[University Name]</strong> - MSc in Data Science (2018-2020)</p>
-    </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/saikat15010">saikat15010</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/your-profile">LinkedIn Profile</a></p>
-    </section>
+    <div class="container">
+        <img src="your-profile-picture.jpg" alt="Your Name" class="profile-pic">
+        <h1>Your Name</h1>
+        <p>Hi, my name is [Your Name], and I am a [Your Title].</p>
+    </div>
+
+    <h2>Research Interests</h2>
+    <p>My primary research focus is on [Brief description of your research interests].</p>
+
+    <h2>CV</h2>
+    <p><a href="link-to-your-cv.pdf" target="_blank">Link to my CV</a></p>
+
+    <h2>Experience</h2>
+    <ul>
+        <li><strong>Organization 1</strong> - Role, Dates</li>
+        <li><strong>Organization 2</strong> - Role, Dates</li>
+        <li><strong>Organization 3</strong> - Role, Dates</li>
+    </ul>
+
+    <h2>Education</h2>
+    <p>[Your degree] from [Your University], GPA: [Your GPA]</p>
+
+    <h2>Publications</h2>
+    <ul>
+        <li><strong>Title of Publication 1</strong> - Conference/Journal, Year. Authors. <a href="link-to-paper">Paper</a></li>
+        <li><strong>Title of Publication 2</strong> - Conference/Journal, Year. Authors. <a href="link-to-paper">Paper</a></li>
+    </ul>
+
+    <h2>Preprints</h2>
+    <ul>
+        <li><strong>Preprint Title</strong> - <a href="link-to-preprint">Paper</a> | <a href="link-to-code">Code</a></li>
+    </ul>
+
+    <h2>Patents</h2>
+    <ul>
+        <li><strong>Patent Title</strong> - Description</li>
+    </ul>
+
+    <h2>Reviewer Experience</h2>
+    <ul>
+        <li><strong>Conference Name</strong>, Year</li>
+        <li><strong>Conference Name</strong>, Year</li>
+    </ul>
+
+    <h2>Recent News</h2>
+    <ul>
+        <li><strong>Month Year:</strong> Brief description of achievement or event.</li>
+        <li><strong>Month Year:</strong> Brief description of achievement or event.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com | Phone: (123) 456-7890</p>
+    <p><a href="https://github.com/your-github-profile" target="_blank">View My GitHub Profile</a></p>
+
+    <footer>
+        <p>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></p>
+    </footer>
 </body>
 </html>
